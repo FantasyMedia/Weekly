@@ -8,16 +8,16 @@ html, body, div, header, aside, article, main, footer, h1, h2, h3, h4 {
 body { min-height: 100vh; font-size: 15px; position: relative; }
 
 /* Site */
-.site-header { padding: 20px 0; margin: 0 auto; width: 640px; text-align: center; border-bottom: 1px dashed rgba(20, 20, 20, 0.5); }
+.site-header { padding: 20px 0; margin: 0 auto; max-width: 640px; text-align: center; border-bottom: 1px dashed rgba(20, 20, 20, 0.5); }
 .site-header a { color: #333; text-decoration: none; }
 .site-header h1 { margin: 10px 0; }
-.site-list { width: 640px; margin: 0 auto; padding: 20px 0; }
+.site-list { max-width: 640px; margin: 0 auto; padding: 20px 0; }
 .site-list a { color: #333; text-decoration: none; }
 .site-list a:hover { color: #777; text-decoration: underline; }
-.site-footer { position: absolute; bottom: 0; width: 100%; text-align: center; padding: 20px 0; font-size: 12px; color: #777; }
+.site-footer { position: absolute; bottom: 0; max-width: 640px; text-align: center; padding: 20px 0; font-size: 12px; color: #777; }
 .site-footer a { color: #999; }
 /* Article */
-.article { width: 640px; margin: 0 auto; padding: 20px 0; }
+.article { max-width: 640px; margin: 0 auto; padding: 20px 0; }
 .article h1 { text-align: center; }
 .article .article-date { text-align: center; }
 .article .others { margin: 20px 0; border-top: 1px solid rgba(200, 200, 200, .5); }
