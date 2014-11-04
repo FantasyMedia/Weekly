@@ -14,7 +14,7 @@ body { min-height: 100vh; font-size: 15px; position: relative; }
 .site-list { max-width: 640px; margin: 0 auto; padding: 20px 0; }
 .site-list a { color: #333; text-decoration: none; }
 .site-list a:hover { color: #777; text-decoration: underline; }
-.site-footer { max-width: 640px; text-align: center; padding: 20px 0; font-size: 12px; color: #777; }
+.site-footer { max-width: 640px; margin: 0 auto; text-align: center; padding: 20px 0; font-size: 12px; color: #777; }
 .site-footer a { color: #999; }
 /* Article */
 .article { max-width: 640px; margin: 0 auto; padding: 20px 0; }
