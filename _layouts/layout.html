@@ -10,13 +10,21 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimal-ui">
     <link rel="author" href="https://plus.google.com/+邵淳华">
+    <link rel="stylesheet" href="/public/css/style.css" media="screen" title="no title" charset="utf-8">
     <link rel="shortcut icon" href="">
     <link rel="apple-touch-icon" href="">
     <link rel="alternate" href="" title="{{site.title}}" type="application/atom+xml">
     <title>{{ page.title }}</title>
 </head>
 <body>
-    <a href="/"><h1>Fantasy Media</h1></a>
+    <header class="site-header">
+        <a href="/"><h1>Tech Weekly</h1></a> by <a class="reverse" href="//fantasymedia.github.io">FantasyMedia</a>
+    </header>
     {{ content }}
+    <footer class="site-footer">
+        <p>
+            Powered by <a href="//jekyllrb.com">Jekyll</a> | Fork it on <a href="//github.com/FantasyMedia/Weekly">GitHub</a>
+        </p>
+    </footer>
 </body>
 </html>
