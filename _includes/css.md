@@ -20,7 +20,7 @@ body { min-height: 100vh; font-size: 15px; position: relative; }
 .article { width: 640px; margin: 0 auto; padding: 20px 0; }
 .article h1 { text-align: center; }
 .article .article-date { text-align: center; }
-.article .others { margin: 20px 0; }
+.article .others { margin: 20px 0; border-top: 1px solid rgba(200, 200, 200, .5); }
 .article .others p { text-align: right; }
 .article a { text-decoration: none; color: #07a; }
 .article a:hover { text-decoration: underline; color: #07f; }
