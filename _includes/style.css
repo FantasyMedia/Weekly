@@ -49,19 +49,20 @@ body { padding: 0 20px; min-height: 100vh; font-size: 15px; position: relative; 
 }
 
 .aside {
-    -webkit-transition: margin-left .2s ease;
-    transition: margin-left .2s ease;
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
 }
 
 .aside.hide {
-    margin-left: -320px;
+    -webkit-transform: translateX(-320px);
+    transform: translateX(-320px);
 }
 
 .aside a { color: white; }
 .aside a:hover { color: #ddd; }
 .aside .close { text-align: right; font-size: 1.5rem; margin: 0; }
 .aside #close {
-    -webkit-transition: transform .5s linear;
+    -webkit-transition: -webkit-transform .5s linear;
     transition: transform .5 linear;
 }
 
