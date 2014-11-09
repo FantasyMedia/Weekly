@@ -21,7 +21,7 @@ body { padding: 0 20px; min-height: 100vh; font-size: 15px; position: relative; 
 .article h1 { text-align: center; }
 .article .article-date { text-align: center; }
 .article .others { margin: 20px 0; border-top: 1px solid rgba(200, 200, 200, .5); }
-.article .others p { text-align: right; }
+.article .others p:not(:first-child) { text-align: right; }
 .article a { text-decoration: none; color: #07a; }
 .article a:hover { text-decoration: underline; color: #07f; }
 .article h1, .article h2, .article h3, .article h4 { line-height: 1.6; }
@@ -32,7 +32,7 @@ body { padding: 0 20px; min-height: 100vh; font-size: 15px; position: relative; 
 .article pre { overflow: hidden; word-wrap: break-word; padding: 3px 5px; }
 .article code { padding: 0 5px; border-radius: 4px; }
 .article blockquote { border-left: 4px solid #d5d5d5; padding: 0 15px; color: #777; }
-.article img { width: 100%; }
+.article img { width: 50%; }
 .article .fa-bars { position: absolute; font-size: 1.5rem; top: 30px; }
 
 .aside {
