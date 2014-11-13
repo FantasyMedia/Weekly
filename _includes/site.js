@@ -44,7 +44,7 @@
     "img_url": 'http://fantasyshao.qiniudn.com/logo.png',
     "link": location.href,
     "title": _.one('title').innerHTML,
-    "desc": _.all('meta[name="description"]').innerHTML
+    "desc": _.all('meta[name="description"]').getAttribute('content')
   };
 
   var onBridgeReady = function() {
